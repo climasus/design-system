@@ -5,10 +5,23 @@
   "nav.home": "Inicio",
   "nav.ecosystem": "Ecosistema",
   "nav.packages": "Paquetes",
+  "nav.architecture": "Arquitectura",
+  "nav.roadmap": "Hoja de ruta",
   "nav.team": "Equipo",
   "nav.docs": "Documentación",
   "nav.contact": "Contacto",
   "nav.get_started": "Empezar",
+
+  "about.feature1.title": "DATASUS",
+  "about.feature1.desc": "SIM-DO, SIH, SIA, SINAN, SI-PNI, SINASC",
+  "about.feature2.title": "Datos climáticos",
+  "about.feature2.desc": "INMET, FIORES, INCT-CONEXÃO, satélite",
+  "about.feature3.title": "Análisis espacial",
+  "about.feature3.desc": "Límites IBGE, modelos bayesianos, LISA",
+  "about.feature4.title": "Modelos predictivos",
+  "about.feature4.desc": "DLNM, fracción atribuible, bioprognosis",
+
+  "hero.stats.sus_systems": "Sistemas SUS",
 
   "hero.badge": "Ciencia Abierta y Reproducible",
   "hero.title_line1": "Ciencia del Clima",
