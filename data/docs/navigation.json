@@ -1,0 +1,16 @@
+{
+  "primary": [
+    { "key": "home",      "label_pt": "Início",        "label_en": "Home",          "label_es": "Inicio",       "href": "/"        },
+    { "key": "ecosystem", "label_pt": "Ecossistema",   "label_en": "Ecosystem",     "label_es": "Ecosistema",   "href": "/#about"  },
+    { "key": "packages",  "label_pt": "Pacotes",       "label_en": "Packages",      "label_es": "Paquetes",     "href": "/#packages"},
+    { "key": "team",      "label_pt": "Equipe",        "label_en": "Team",          "label_es": "Equipo",       "href": "/#team"   },
+    { "key": "docs",      "label_pt": "Documentação",  "label_en": "Documentation", "label_es": "Documentación","href": "/#docs"   },
+    { "key": "contact",   "label_pt": "Contato",       "label_en": "Contact",       "label_es": "Contacto",     "href": "/#contact"}
+  ],
+  "docs": [
+    { "key": "climasus4r",  "label": "climasus4r",  "href": "https://climasus.github.io/climasus4r/" },
+    { "key": "climasus4py", "label": "climasus4py", "href": "https://climasus.github.io/climasus4py/" },
+    { "key": "handbook",    "label_pt": "Manual Técnico", "label_en": "Tech Handbook", "label_es": "Manual Técnico", "href": "https://climasus.github.io/tech-handbook/" },
+    { "key": "design",      "label": "Design System", "href": "https://climasus.github.io/design-system/" }
+  ]
+}

@@ -1,0 +1,76 @@
+/* ==========================================================================
+   CLIMA-SUS — Theme overrides
+   Complementa o style.css com utilitários de tema (light/dark) e
+   ajustes específicos para MkDocs Material e pkgdown.
+   ========================================================================== */
+
+/* -------- MkDocs Material overrides -------- */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:       #00CC6A;
+    --md-primary-fg-color--dark: #009E52;
+    --md-accent-fg-color:        #A855F7;
+    --md-default-bg-color:       #FAFAFA;
+    --md-default-fg-color:       #18181B;
+    --md-typeset-a-color:        #00CC6A;
+    --md-code-bg-color:          #F4F4F5;
+    --md-code-fg-color:          #18181B;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:       #00FF88;
+    --md-primary-fg-color--dark: #00CC6A;
+    --md-accent-fg-color:        #A855F7;
+    --md-default-bg-color:       #0a0a0f;
+    --md-default-fg-color:       #FAFAFA;
+    --md-typeset-a-color:        #00FF88;
+    --md-code-bg-color:          #111118;
+    --md-code-fg-color:          #FAFAFA;
+}
+
+/* -------- pkgdown Bootstrap overrides -------- */
+.navbar-brand,
+.pkgdown-nav .nav-link:hover { color: #00CC6A !important; }
+
+.btn-primary {
+    background-color: #00CC6A;
+    border-color:     #009E52;
+}
+.btn-primary:hover {
+    background-color: #009E52;
+    border-color:     #007a3f;
+}
+
+/* -------- Shared utility classes -------- */
+.climasus-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-full, 9999px);
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--primary-light, rgba(0,255,136,.12));
+    color: var(--primary-dark, #00CC6A);
+    border: 1px solid var(--primary-dark, #00CC6A);
+}
+
+.climasus-card {
+    background: var(--bg-card, #fff);
+    border: 1px solid var(--border-color, rgba(0,0,0,.08));
+    border-radius: var(--radius-md, 12px);
+    box-shadow: var(--shadow-sm, 4px 4px 0 rgba(0,0,0,.06));
+    padding: var(--space-md, 1.5rem);
+    transition: box-shadow var(--transition-base, .3s ease),
+                transform  var(--transition-base, .3s ease);
+}
+.climasus-card:hover {
+    box-shadow: var(--shadow-lg, 8px 8px 0 rgba(0,0,0,.10));
+    transform: translateY(-2px);
+}
+
+.climasus-gradient-text {
+    background: var(--gradient-primary, linear-gradient(135deg, #00FF88, #A855F7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
