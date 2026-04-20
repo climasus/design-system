@@ -6,9 +6,9 @@
     { "key": "readdbc",          "label": "climasus-readdbc-py", "href": "https://climasus.github.io/climasus-readdbc-py/" },
     { "key": "design_system",    "label": "Design System",    "href": "https://climasus.github.io/design-system/" }
   ],
-  "copyright_pt": "© 2024–2026 ClimaSUS Team · INCT-CONEXAÃO / CCSRO / FIOCRUZ-RO",
-  "copyright_en": "© 2024–2026 ClimaSUS Team · INCT-CONEXAÃO / CCSRO / FIOCRUZ-RO",
-  "copyright_es": "© 2024–2026 ClimaSUS Team · INCT-CONEXAÃO / CCSRO / FIOCRUZ-RO",
+  "copyright_pt": "© 2024–2026 ClimaSUS Team · INCT-CONEXÃO / CCSRO / FIOCRUZ-RO",
+  "copyright_en": "© 2024–2026 ClimaSUS Team · INCT-CONEXÃO / CCSRO / FIOCRUZ-RO",
+  "copyright_es": "© 2024–2026 ClimaSUS Team · INCT-CONEXÃO / CCSRO / FIOCRUZ-RO",
   "license": "MIT License",
   "license_url": "https://github.com/climasus/climasus4r/blob/main/LICENSE"
 }
