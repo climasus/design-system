@@ -71,5 +71,16 @@
   "footer.license": "MIT License",
 
   "theme.toggle_dark": "Dark mode",
-  "theme.toggle_light": "Light mode"
+  "theme.toggle_light": "Light mode",
+
+  "roadmap.section_label": "Project evolution",
+  "roadmap.title": "Ecosystem roadmap",
+  "roadmap.subtitle": "From infrastructure to bioclimatic prognosis — an ecosystem in continuous development.",
+  "roadmap.status.released": "Released",
+  "roadmap.status.in_progress": "In progress",
+  "roadmap.status.planned": "Planned",
+
+  "architecture.section_label": "How it works",
+  "architecture.title": "Ecosystem architecture",
+  "architecture.subtitle": "Vertical layers — from raw data to intelligence for public policies."
 }

@@ -71,5 +71,16 @@
   "footer.license": "MIT License",
 
   "theme.toggle_dark": "Modo escuro",
-  "theme.toggle_light": "Modo claro"
+  "theme.toggle_light": "Modo claro",
+
+  "roadmap.section_label": "Evolução do projeto",
+  "roadmap.title": "Roadmap do ecossistema",
+  "roadmap.subtitle": "Da infraestrutura à bioprognose climática — um ecossistema em construção contínua.",
+  "roadmap.status.released": "Lançado",
+  "roadmap.status.in_progress": "Em andamento",
+  "roadmap.status.planned": "Planejado",
+
+  "architecture.section_label": "Como funciona",
+  "architecture.title": "Arquitetura do ecossistema",
+  "architecture.subtitle": "Camadas verticais — do dado bruto à inteligência para políticas públicas."
 }

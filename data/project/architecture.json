@@ -1,0 +1,75 @@
+{
+  "title": "Ecosystem Architecture",
+  "title_pt": "Arquitetura do Ecossistema",
+  "title_es": "Arquitectura del Ecosistema",
+  "description_pt": "O ecossistema ClimaSUS é organizado em camadas verticais — da infraestrutura bruta de dados até a geração de inteligência para políticas públicas.",
+  "description_en": "The ClimaSUS ecosystem is organized in vertical layers — from raw data infrastructure to the generation of intelligence for public policies.",
+  "description_es": "El ecosistema ClimaSUS está organizado en capas verticales — desde la infraestructura de datos brutos hasta la generación de inteligencia para políticas públicas.",
+  "layers": [
+    {
+      "id": "layer-raw",
+      "level": 1,
+      "icon": "🗄️",
+      "color": "#6b7280",
+      "title": "Raw Data Sources",
+      "title_pt": "Fontes de Dados Brutos",
+      "title_es": "Fuentes de Datos Crudos",
+      "description_pt": "DATASUS (SIM-DO, SIH, SIA, SINAN, SI-PNI, SINASC), IBGE, INMET, satélites e dados climáticos.",
+      "description_en": "DATASUS (SIM-DO, SIH, SIA, SINAN, SI-PNI, SINASC), IBGE, INMET, satellites and climate data.",
+      "description_es": "DATASUS (SIM-DO, SIH, SIA, SINAN, SI-PNI, SINASC), IBGE, INMET, satélites y datos climáticos.",
+      "components": ["DATASUS", "IBGE", "INMET", "FIORES", "INCT-CONEXÃO"]
+    },
+    {
+      "id": "layer-infra",
+      "level": 2,
+      "icon": "⚙️",
+      "color": "#f97316",
+      "title": "Infrastructure & ETL",
+      "title_pt": "Infraestrutura e ETL",
+      "title_es": "Infraestructura y ETL",
+      "description_pt": "Leitura de arquivos DBC/DBF, pipeline ETL automatizada, cache local e dicionários padronizados.",
+      "description_en": "DBC/DBF file reading, automated ETL pipeline, local cache and standardized dictionaries.",
+      "description_es": "Lectura de archivos DBC/DBF, pipeline ETL automatizada, caché local y diccionarios estandarizados.",
+      "components": ["climasus-readdbc-py", "climasus-etl", "climasus-data"]
+    },
+    {
+      "id": "layer-libraries",
+      "level": 3,
+      "icon": "📦",
+      "color": "#3b82f6",
+      "title": "Analysis Libraries",
+      "title_pt": "Bibliotecas de Análise",
+      "title_es": "Bibliotecas de Análisis",
+      "description_pt": "Pacotes R e Python com funções de alto nível para importação, limpeza, integração e análise.",
+      "description_en": "R and Python packages with high-level functions for import, cleaning, integration and analysis.",
+      "description_es": "Paquetes R y Python con funciones de alto nivel para importación, limpieza, integración y análisis.",
+      "components": ["climasus4r", "climasus4py"]
+    },
+    {
+      "id": "layer-analysis",
+      "level": 4,
+      "icon": "🔬",
+      "color": "#a855f7",
+      "title": "Scientific Analysis",
+      "title_pt": "Análise Científica",
+      "title_es": "Análisis Científico",
+      "description_pt": "Modelos espaciais bayesianos, DLNM, fração atribuível, clustering, séries temporais e bioprognose.",
+      "description_en": "Bayesian spatial models, DLNM, attributable fraction, clustering, time series and bioprognosis.",
+      "description_es": "Modelos espaciales bayesianos, DLNM, fracción atribuible, clustering, series temporales y bioprognosis.",
+      "components": ["climasus4r", "climasus4py"]
+    },
+    {
+      "id": "layer-output",
+      "level": 5,
+      "icon": "🌐",
+      "color": "#00ff88",
+      "title": "Outputs & Intelligence",
+      "title_pt": "Saídas e Inteligência",
+      "title_es": "Salidas e Inteligencia",
+      "description_pt": "Relatórios reproducíveis, dashboards, alertas epidemiológicos, boletins e subsídios para políticas públicas.",
+      "description_en": "Reproducible reports, dashboards, epidemiological alerts, bulletins and public policy briefings.",
+      "description_es": "Informes reproducibles, paneles de control, alertas epidemiológicas, boletines e insumos para políticas públicas.",
+      "components": ["Quarto reports", "R Markdown", "API endpoints", "Policy briefs"]
+    }
+  ]
+}

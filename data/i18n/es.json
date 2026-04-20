@@ -71,5 +71,16 @@
   "footer.license": "MIT License",
 
   "theme.toggle_dark": "Modo oscuro",
-  "theme.toggle_light": "Modo claro"
+  "theme.toggle_light": "Modo claro",
+
+  "roadmap.section_label": "Evolución del proyecto",
+  "roadmap.title": "Hoja de ruta del ecosistema",
+  "roadmap.subtitle": "De la infraestructura a la bioprognosis climática — un ecosistema en construcción continua.",
+  "roadmap.status.released": "Lanzado",
+  "roadmap.status.in_progress": "En progreso",
+  "roadmap.status.planned": "Planificado",
+
+  "architecture.section_label": "Cómo funciona",
+  "architecture.title": "Arquitectura del ecosistema",
+  "architecture.subtitle": "Capas verticales — del dato bruto a la inteligencia para políticas públicas."
 }
