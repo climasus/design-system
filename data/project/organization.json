@@ -20,9 +20,10 @@
     },
     {
       "name": "INCT-CONEXAO",
-      "logo": null,
+      "logo": "https://raw.githubusercontent.com/ByMaxAnjos/climasus4r/master/inst/figures/logo_inct.png",
       "url": "https://inct-conexao.com.br/",
-      "grant": "CNPq 408474/2024-6"
+      "grant": "CNPq 408474/2024-6",
+      "featured": true
     }
   ]
 }
