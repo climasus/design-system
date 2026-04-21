@@ -1,0 +1,29 @@
+{
+  "name": "ClimaSUS",
+  "name_full": "Ecossistema ClimaSUS",
+  "description": "An ecosystem of software tools for integrating, processing, standardizing, and analyzing health, climate, environment, and territory data in Brazil.",
+  "description_pt": "Ecossistema de ferramentas de software voltado à integração, processamento, padronização e análise de dados de saúde, clima, ambiente e território no Brasil.",
+  "description_es": "Ecosistema de herramientas de software orientado a la integración, procesamiento, estandarización y análisis de datos de salud, clima, ambiente y territorio en Brasil.",
+  "github_org": "https://github.com/climasus",
+  "main_site": "https://climasus.github.io/",
+  "contact_email": "max.anjos@campus.ul.pt",
+  "languages": ["pt", "en", "es"],
+  "funding": [
+    {
+      "name": "Ministério da Saúde",
+      "logo": "https://raw.githubusercontent.com/ByMaxAnjos/climasus4r/master/inst/figures/logo_gov.png"
+    },
+    {
+      "name": "FIOCRUZ-RO / CCSRO",
+      "logo": "https://rondonia.fiocruz.br/wp-content/uploads/2024/12/MARCA-PAD-01-1.png",
+      "url": "https://rondonia.fiocruz.br/"
+    },
+    {
+      "name": "INCT-CONEXAO",
+      "logo": "https://raw.githubusercontent.com/ByMaxAnjos/climasus4r/master/inst/figures/logo_inct.png",
+      "url": "https://inct-conexao.com.br/",
+      "grant": "CNPq 408474/2024-6",
+      "featured": true
+    }
+  ]
+}

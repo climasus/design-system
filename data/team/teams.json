@@ -1,0 +1,20 @@
+[
+  {
+    "id": "core",
+    "name": "Core",
+    "name_pt": "Equipe Principal",
+    "name_es": "Equipo Principal",
+    "description": "Core development and coordination team.",
+    "description_pt": "Equipe principal de desenvolvimento e coordenação.",
+    "description_es": "Equipo principal de desarrollo y coordinación."
+  },
+  {
+    "id": "advisory",
+    "name": "Scientific Advisory",
+    "name_pt": "Assessoria Científica",
+    "name_es": "Asesoría Científica",
+    "description": "Researchers and advisors from partner institutions.",
+    "description_pt": "Pesquisadores e assessores de instituições parceiras.",
+    "description_es": "Investigadores y asesores de instituciones asociadas."
+  }
+]
