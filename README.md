@@ -26,6 +26,10 @@
 
 **→ https://climasus.github.io/design-system/**
 
+Guia rapido de integracao com MkDocs:
+
+- `docs/mkdocs-integration.md`
+
 ---
 
 ## Como usar em outro repositório
